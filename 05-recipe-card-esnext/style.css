@@ -22,8 +22,16 @@
 
 .wp-block-gutenberg-examples-example-05-recipe-card-esnext .recipe-image img {
 	display: block;
-	z-index: 1;
-	position: relative;
+	
+}
+
+.wp-block-gutenberg-examples-example-05-recipe-card-esnext .steps{
+	width: 250px
+	
+}
+
+.wp-block-gutenberg-examples-example-05-recipe-card-esnext h2 {
+	font-size: 1.5em;
 }
 
 .wp-block-gutenberg-examples-example-05-recipe-card-esnext h2 {
@@ -32,10 +40,16 @@
 
 .wp-block-gutenberg-examples-example-05-recipe-card-esnext ul {
 	padding-left: 2.5em !important; /* Needs fix in Gutenberg. */
+	width: 250px
 }
 
 .wp-block-gutenberg-examples-example-05-recipe-card-esnext:after { 
 	content:""; 
 	clear:both; 
 	display: table; 
+}
+
+.wp-block-gutenberg-examples-example-05-recipe-card-esnext table tr td{ 
+	border: 1px solid;
+	text-align: center;
 }
